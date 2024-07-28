@@ -5,12 +5,12 @@ using UnityEngine;
 
 public class Hero : MonoBehaviour
 {
-    public string Name {  get; set; }
+    public string Name { get; set; }
     public List<string> Powers { get; } = new List<string>();
 
     public void CreateHero()
     {
-        Console.WriteLine($"Created Hero : {Name}");
+        Debug.Log($"Created Hero : {Name}");
         Console.WriteLine("Hero powers:");
         foreach (var p in Powers)
         {
