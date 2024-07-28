@@ -2,17 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Jocker : MonoBehaviour
+//Joker :D
+public class Jocker : Hero
 {
-    // Start is called before the first frame update
-    void Start()
+    public Jocker()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Name = "Arthur Fleck";
+        Powers.Add("Intellect");
+        Powers.Add("Chemist");
+        Powers.Add("Manipulation");
+        Powers.Add("Obsessive");
+        //...
     }
 }

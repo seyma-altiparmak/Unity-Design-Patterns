@@ -2,17 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BlackSpiderman : MonoBehaviour
+public class BlackSpiderman : Hero
 {
-    // Start is called before the first frame update
-    void Start()
+    public BlackSpiderman()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Name = "Symbiote Miles Morales";
+        Powers.Add("Strength");
+        Powers.Add("Camouflage");
+        Powers.Add("Regeneration");
+        Powers.Add("Spider-Sense");
+        //...
     }
 }
